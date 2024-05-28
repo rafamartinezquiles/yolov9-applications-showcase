@@ -46,7 +46,7 @@ python src/yolov9_object_detection.py -v path/to/your/video.mp4 -m yolov9e.pt
 ```
 
 When you have performed the corresponding test, you can close the additional tab by pressing the q key to prevent the tab from collapsing.
-
+![](images/object_detection.png)
 
 ## References
 - OpenCV: https://opencv.org/
