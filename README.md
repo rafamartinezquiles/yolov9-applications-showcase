@@ -59,6 +59,18 @@ python src/yolov9_instance_segmentation.py -v path/to/your/video.mp4 -m yolov9e-
 When you have performed the corresponding test, you can close the additional tab by pressing the q key to prevent the tab from collapsing.
 ![](images/instance_segmentation.png)
 
+## Tracking
+Real-time object tracking with YOLOv9 builds upon the foundation of object detection by not only identifying and locating objects within a visual scene but also assigning a unique identifier to each detected object instance. This enhancement enables the tracking of individual objects over time, providing valuable insights into object movements, interactions, and behavior dynamics. The arguments to be specified are:
+- **--video:** Path to the input video file or camera index (default is 0 for the first webcam).
+- **--model:** YOLOv9 model file (e.g., yolov9t-seg.pt, yolov9s-seg.pt, yolov9m-seg.pt, yolov9c-seg.pt, yolov9e-seg.pt).
+
+```bash
+python src/yolov9_tracking.py -v path/to/your/video.mp4 -m yolov9e.pt
+```
+
+When you have performed the corresponding test, you can close the additional tab by pressing the q key to prevent the tab from collapsing.
+![](images/tracking.png)
+
 ## References
 - OpenCV: https://opencv.org/
 - Ultralytics: https://github.com/ultralytics/ultralytics
