@@ -3,6 +3,7 @@ Using YOLOv9 along with cutting-edge machine learning frameworks such as Ultraly
 ![](images/yolo_v9.png)
 
 ## Overview and Background
+With the emergence of YOLOv9, a recent advancement in deep learning for object detection and tracking, there's a growing interest in exploring its capabilities across various domains. However, due to its novelty, pre-trained models for specific tasks may not be readily available. Nonetheless, the versatility and power of YOLOv9 make it a prime candidate for addressing a wide range of applications, from simple object detection to more complex tasks like instance segmentation and real-time tracking.
 
 ## Table of Contents
 
@@ -32,9 +33,6 @@ git clone https://github.com/rafamartinezquiles/yolov9-applications-showcase.git
 ```bash
 pip install -r requirements.txt
 ```
-
-### Setup
-
 
 ## Object Detection
 Object detection is a computer vision technique used to identify and locate objects within an image or video. This powerful capability is a critical component in various applications, including autonomous driving, surveillance, retail analytics, and more. By leveraging advanced algorithms and deep learning models, object detection systems can recognize multiple objects, classify them, and determine their precise locations within the visual frame. The arguments to be specified are:
