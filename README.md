@@ -44,9 +44,20 @@ Object detection is a computer vision technique used to identify and locate obje
 ```bash
 python src/yolov9_object_detection.py -v path/to/your/video.mp4 -m yolov9e.pt
 ```
-
 When you have performed the corresponding test, you can close the additional tab by pressing the q key to prevent the tab from collapsing.
 ![](images/object_detection.png)
+
+## Instance Segmentation
+Instance segmentation is an advanced computer vision technique that extends the capabilities of object detection by not only identifying and locating objects within an image or video but also distinguishing between individual instances of the same object class. This means that instance segmentation not only detects objects but also segments them pixel by pixel, assigning each pixel in the image to a specific object instance. This technique is incredibly useful in various applications, particularly in scenarios where precise object delineation is crucial, such as medical imaging, autonomous driving, and industrial quality control. By providing detailed object boundaries and segmentation masks, instance segmentation enables more accurate analysis, tracking, and understanding of visual scenes. The arguments to be specified are:
+- **--video:** Path to the input video file or camera index (default is 0 for the first webcam).
+- **--model:** YOLOv9 model file (e.g., yolov9t-seg.pt, yolov9s-seg.pt, yolov9m-seg.pt, yolov9c-seg.pt, yolov9e-seg.pt).
+
+```bash
+python src/yolov9_instance_segmentation.py -v path/to/your/video.mp4 -m yolov9e-seg.pt
+```
+
+When you have performed the corresponding test, you can close the additional tab by pressing the q key to prevent the tab from collapsing.
+![](images/instance_segmentation.png)
 
 ## References
 - OpenCV: https://opencv.org/
